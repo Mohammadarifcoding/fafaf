@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      *{
+          margin: 0;
+          padding: 0;
+      }
+      h1{
+          text-align: center;
+      }
+    .card{
+      margin: 0 auto;
+      max-width: 350px;
+      text-align: center;
+      margin-top: 20px;
+      box-shadow: 2px 5px 10px black;
+      
+      font-size: 0;
+      
+    }
+    .card:hover{
+      box-shadow: 10px 15px 20px black;
+    }
+    .calculator-heading{
+      width: 230px;
+      height: 50px;
+      text-align: right;
+      font-size: 35px;
+     
+      padding:0 10px;
+      letter-spacing: 2px;
+      background-color:rgba(19, 18, 18, 0.267);
+      color: rgb(5, 5, 5);
+    
+
+      
+
+    }
+    .button{
+      width: 87px;
+      height: 70px;
+      font-size: 20px;
+      background-color: black;
+      color:white;
+      font-weight: bold;
+      padding-right: 1px solid white;
+      border: 2px solid white;
+    
+    }
+    .extra-button{
+      width: 83px;
+      height: 73px;
+      padding:0 10px;
+     
+     margin-left:6px ;
+     font-size: 16px;
+     background-color: rgb(21, 192, 58);
+      color:white;
+      font-weight: bold;
+    
+  
+    }
+    #button-style{
+      background-color: blueviolet;
+    }
+    .button:hover{
+      background-color:orange;
+
+    }
+    #button-style:hover{
+      background-color: aqua;
+    }
+    .extra-button:hover{
+      background-color: rgb(189, 48, 48);
+    }
+
+  </style>
+</head>
+<body>
+    <h1>Calculator</h1>
+    <div class="card">
+        <div class="calculator-head">
+            <input class="calculator-heading"type="text" maxlength="10">
+            <input type="button" class="extra-button"  value="ON/OFF" style="left: 30px">
+        </div>
+        <div class="calculator-body">
+            <div class="calculator1">    
+                <input type="button"class="button"  value="C">
+                <input type="button"class="button"  value="+/-">  
+                <input type="button"class="button"  value="%"> 
+                <input type="button"class="button" id="button-style" value="/"> 
+            
+            </div>
+            <div class="calculator2">    
+                <input type="button"class="button"  value="7">
+                <input type="button"class="button"  value="8">  
+                <input type="button"class="button"  value="9"> 
+                <input type="button"class="button" id="button-style" value="x"> 
+            
+            </div>
+            <div class="calculator3">    
+                <input type="button"class="button"  value="4">
+                <input type="button"class="button"  value="5">  
+                <input type="button"class="button"  value="6"> 
+                <input type="button"class="button" id="button-style" value="-"> 
+            
+            </div>
+            <div class="calculator4">    
+                <input type="button"class="button"  value="1">
+                <input type="button"class="button"  value="2">  
+                <input type="button"class="button"  value="3"> 
+                <input type="button"class="button" id="button-style" value="+"> 
+            
+            </div>  
+                      <div class="calculator5">    
+                <input type="button"class="button"  value="0">
+                <input type="button"class="button"  value=".">  
+                <input type="button"class="button"  value="DEL"> 
+                <input type="button"class="button"  value="="> 
+            
+            </div>
+
+        </div>
+
+    </div>
+</body>
+</html>
